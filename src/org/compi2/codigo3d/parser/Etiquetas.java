@@ -36,7 +36,7 @@ public class Etiquetas {
     }
     public void imprimirIF(String e1, String e2,String e3){
         System.out.println("if "+e1+" goto " +e2+"\n"+"goto "+e3+"\n");
-        ControlC3D.concatenar("if "+e1+" goto " +e2+"\n"+"goto "+e3+"\n");
+        ControlC3D.concatenar("if "+e1+" goto " +e2+"\n"+"goto "+e3+"\n"+e2+":\n");
     }
 
     public void seteFalse(String eFalse) {

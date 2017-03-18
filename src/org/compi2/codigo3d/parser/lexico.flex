@@ -5,7 +5,7 @@ import java_cup.runtime.Symbol;
 //Scanner para generar C3D
 %%
 %{
-    //Código de usuario
+    //Código del usuario
     
 
 %}
